@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.4'
-
+gem 'nokogiri'
 gem 'rails-api'
+gem 'mongoid', '~> 4', github: 'mongoid/mongoid'
+gem 'bson_ext'
 
 gem 'spring', :group => :development
 
