@@ -14,4 +14,5 @@
 - Development: make sure you have MongoDB installed and run "rails s"
 - Production (Heroku): create a Heroku instance, add MongoHQ addon, set MONGOHQ_URL config var
 - Request http://HOSTNAME/api/til to receive your TIL
+- ... or just use http://til-api.herokuapp.com/api/til
 
