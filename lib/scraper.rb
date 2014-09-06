@@ -11,7 +11,7 @@ class Scraper
   end
 
   def random_title
-    Article.skip(rand(Article.count)).first
+    Article.skip(rand(Article.count)).first.title
   end
 
   def remove_all_titles
