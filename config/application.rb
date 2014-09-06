@@ -5,6 +5,10 @@ require 'rails/mongoid'
 
 Bundler.require(*Rails.groups)
 
+Dir["lib/**/*.rb"].each do |path|
+  require_dependency path
+end 
+
 module TilApi
   class Application < Rails::Application
 
